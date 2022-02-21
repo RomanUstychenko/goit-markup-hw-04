@@ -185,15 +185,15 @@ img {
     flex-wrap: wrap;
   } 
 .about-svg-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
     flex-basis: calc((100% - 90px) / 4);
-    background-color: #F5F4FA;
+    background-color: var(--team-background-color);
     border-radius: 4px;
     } 
-.about-svg-list {
-    display: flex;
-    justify-content: center;
-    padding: 25px 102px;
-    }
+
 .about-container {
     display: flex;
     align-items: center;
@@ -222,7 +222,6 @@ img {
 .services-list {
     display: flex;
     justify-content: space-between;
-    /* margin-top: 50px; */
     }
 /* ======END ABOUT====== */
 /* ======START TEAM====== */
